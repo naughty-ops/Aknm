@@ -1,0 +1,90 @@
+{
+  "fixtures": [
+    {
+      "group": "A",
+      "round": "Round 1",
+      "matches": [
+        { 
+          "player1Id": "901234",
+          "player2Id": "993456",
+          "time": "TBA", 
+          "status": "No Result",
+          "completed": false
+        },
+        { 
+          "player1Id": "345678",
+          "player2Id": "912345", 
+          "time": "TBA", 
+          "status": "No Result",
+          "completed": true
+        }
+      ]
+    },
+    {
+      "group": "A",
+      "round": "Round 2",
+      "matches": [
+        { 
+          "player1Id": "912345",
+          "player2Id": "992345", 
+          "time": "TBA", 
+          "status": "No Result",
+          "completed": false
+        },
+        { 
+          "player1Id": "345678",
+          "player2Id": "901234", 
+          "time": "TBA", 
+          "status": "No Result",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "group": "B",
+      "round": "Round 3",
+      "matches": [
+        { 
+          "player1Id": "993456",
+          "player2Id": "345678", 
+          "time": "TBA", 
+          "status": "No Result",
+          "completed": false
+        },
+        { 
+          "player1Id": "992345",
+          "player2Id": "901234", 
+          "time": "TBA", 
+          "status": "No Result",
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "completedMatches": [
+    {
+      "player1Id": "123456",
+      "player2Id": "345678",
+      "score": "3-1",
+      "winnerId": "123456",
+      "group": "A",
+      "date": "July 16, 2025"
+    },
+    {
+      "player1Id": "234567",
+      "player2Id": "678901",
+      "score": "2-0",
+      "winnerId": "234567",
+      "group": "A",
+      "date": "July 14, 2025"
+    },
+    {
+      "player1Id": "456789",
+      "player2Id": "123456",
+      "score": "1-2",
+      "winnerId": "123456",
+      "group": "A",
+      "date": "July 12, 2025"
+    }
+  ]
+}
